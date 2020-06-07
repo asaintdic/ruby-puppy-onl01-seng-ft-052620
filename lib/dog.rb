@@ -11,7 +11,9 @@ class Dog
   def self.clear_all
   def self.print_all
   def save
-  def 
+  def name
+    @name
+  end 
 end
 
 
