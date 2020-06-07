@@ -18,7 +18,7 @@ class Dog
   end 
   
   def self.print_all
-   self.all.inspect {|name| puts name }
+   @@all.inspect {|name| name }
   end
   
   def name
