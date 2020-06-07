@@ -18,7 +18,11 @@ class Dog
   end 
   
   def self.print_all
-   @@all.each {|name| puts "#{name}"}
+   @genre_hash = {}
+    self.genres.each do |genre|
+      genre_hash[genre] = @@genres.count {|g| g == genre} 
+    
+    genre_hash@all.each {|name| puts "#{name}"}
   end
   
   def name
