@@ -18,9 +18,7 @@ class Dog
   end 
   
   def self.print_all
-   
-    
-    genre_hash@all.each {|name| puts "#{name}"}
+   self.name.
   end
   
   def name
